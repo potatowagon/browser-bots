@@ -1,0 +1,7 @@
+auto "click" on all the moneytree items listed in the money tree page
+
+var h = document.getElementsByClassName("np");
+for(var i = 0; i<h.length; i++) {
+window.open(h[i].parentNode.href);
+self.focus;
+}
