@@ -1,4 +1,4 @@
-# how to use bots in this repo
+# How to use Bots in this Repo
 
 1) Navigate to target page, press <kbd>F12</kbd> to open dev console
 2) Click on `Console` tab (beside `Elements` in Chrome) 
