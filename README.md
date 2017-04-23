@@ -1,16 +1,5 @@
-# mousehunt_bot
-auto toot the horn
+# how to use bots in this repo
 
-//works after focus on horbutton using dev tool
-var h = document.getElementsByClassName("hornbutton");
-if (h.length != 0) 
-{
-    h[0].firstChild.click();
-}
-
-//loops are jammed somehpw
-setInterval(function(){
-    if (h.length != 0) 
-    {
-        h[0].firstChild.click();
-    } }, 1000);
+1) Navigate to target page, press <kbd>F12</kbd> to open dev console
+2) click on `Console` tab (beside `Elements`)
+3) paste code and hit <kbd>Enter</kbd>
