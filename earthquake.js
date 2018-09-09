@@ -1,4 +1,4 @@
-```
+
 var minWidth = 0;
 
 class WaveyDivy {
@@ -53,4 +53,3 @@ for (let i = 0; i < divs.length; i++) {
     waveyDivys[i] = new WaveyDivy(divs[i], t);
     setTimeout(waveyDivys[i].start(), delay + ((delaySpace * i ) % 5000));
 }
-```
